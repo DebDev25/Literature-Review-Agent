@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2105.03699",
+  "title": "A defective cure rate quantile regression model for male breast cancer data",
+  "authors": [
+    "Agatha Rodrigues",
+    "Patrick Borges",
+    "Bruno Santos"
+  ],
+  "published": "2021-05-08",
+  "url": "http://arxiv.org/abs/2105.03699v1",
+  "usefulness_reason": "While the paper focuses on survival analysis and modeling the impact of age and clinical stage on male breast cancer survival rather than early detection specifically, it provides statistical methodology relevant to analyzing male breast cancer cohorts.",
+  "key_findings": [
+    "Developed a quantile regression model for survival data with long-term survivors based on a defective Gompertz distribution.",
+    "Analyzed the impact of clinical stage and age on specific survival times and cure rates of men with breast cancer across different quantiles.",
+    "Utilized Markov Chain Monte Carlo (MCMC) methods for Bayesian analysis."
+  ],
+  "datasets": [
+    "male breast cancer data from Brazil"
+  ],
+  "usefulness_score": "low",
+  "research_problem": "Assessing the impact of clinical stage and age on specific survival times and cure rates of men with breast cancer when cure is a possibility, across different quantiles.",
+  "saved_at": "2026-09-22T17:16:23"
+}

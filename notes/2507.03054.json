@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2507.03054",
+  "title": "LATTE: Latent Trajectory Embedding for Diffusion-Generated Image Detection",
+  "authors": [
+    "Ana Vasilcoiu",
+    "Ivona Najdenkoska",
+    "Zeno Geradts",
+    "Marcel Worring"
+  ],
+  "published": "2025-07-03",
+  "url": "http://arxiv.org/abs/2507.03054v2",
+  "usefulness_reason": "Proposes LATTE, a novel approach modeling latent trajectory embeddings across multiple denoising steps for robust cross-generator detection.",
+  "usefulness": "high",
+  "datasets": [
+    "GenImage",
+    "Chameleon",
+    "Diffusion Forensics"
+  ],
+  "key_findings": [
+    "Modeling the sequential evolution of latent embeddings across multiple denoising steps reveals subtle and discriminative patterns.",
+    "LATTE achieves superior performance particularly in challenging cross-generator and cross-dataset scenarios."
+  ],
+  "research_problem": "Addressing the limitation of existing approaches that rely on single-step reconstruction errors and overlook the sequential nature of the denoising process.",
+  "saved_at": "2026-09-22T14:42:34"
+}

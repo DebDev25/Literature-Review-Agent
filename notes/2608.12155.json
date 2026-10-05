@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2608.12155",
+  "title": "Understanding Why Foundation Models Work for Diffusion-Generated Image Detection",
+  "authors": [
+    "Davide Cozzolino",
+    "Giovanni Poggi",
+    "Luisa Verdoliva"
+  ],
+  "published": "2026-08-12",
+  "url": "http://arxiv.org/abs/2608.12155v1",
+  "usefulness_reason": "Provides insights into the interpretability and feature-level characteristics of diffusion image detectors (specifically regarding frequency localization and distributional discrepancies).",
+  "research_problem": "Understanding the underlying reasons behind why vision foundation models work effectively as feature extractors for detecting AI-generated images.",
+  "usefulness_score": "medium",
+  "key_findings": [
+    "Discriminative cues exploited by foundation-model-based detectors are mainly localized in the low-to-mid frequency range rather than just high frequencies.",
+    "Regenerated images exhibit reduced variance and effective dimensionality, indicating that diffusion models do not fully reproduce real data variability.",
+    "Foundation-model-based detectors succeed by capturing non-semantic low-to-mid frequency distributional discrepancies."
+  ],
+  "datasets": [],
+  "saved_at": "2026-09-24T11:23:24"
+}

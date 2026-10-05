@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2511.00352",
+  "title": "Detecting AI-Generated Images via Diffusion Snap-Back Reconstruction: A Forensic Approach",
+  "authors": [
+    "Mohd Ruhul Ameen",
+    "Akif Islam"
+  ],
+  "published": "2025-11-01",
+  "url": "http://arxiv.org/abs/2511.00352v2",
+  "usefulness_score": "high",
+  "usefulness_reason": "Focuses on an interpretable forensic approach using reconstruction dynamics and simple logistic regression, making it relevant to explainable detectors.",
+  "key_findings": [
+    "By tracking how perceptual similarity measures (LPIPS, SSIM, and PSNR) change across different reconstruction strengths (diffusion snap-back), the method captures compact and interpretable signals.",
+    "Achieves an AUROC of 0.993 under stratified five-fold cross-validation and 0.990 on a holdout split using only logistic regression on a balanced dataset of 4,000 images."
+  ],
+  "datasets": [],
+  "research_problem": "Detecting AI-generated images using an interpretable forensic approach based on diffusion snap-back reconstruction behavior rather than hidden pixel-level traces.",
+  "saved_at": "2026-09-24T11:23:24"
+}

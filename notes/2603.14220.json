@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2603.14220",
+  "title": "FIND: A Simple yet Effective Baseline for Diffusion-Generated Image Detection",
+  "authors": [
+    "Jie Li",
+    "Yingying Feng",
+    "Chi Xie",
+    "Jie Hu",
+    "Lei Tan",
+    "Jiayi Ji"
+  ],
+  "published": "2026-03-15",
+  "url": "http://arxiv.org/abs/2603.14220v1",
+  "usefulness_score": "high",
+  "key_findings": [
+    "FIND improves performance by 11.7% on the GenImage benchmark while running 126x faster than existing reconstruction-based methods.",
+    "Eliminates the need for auxiliary diffusion models and costly reconstruction by using a simple binary classifier trained with noise-augmented real images."
+  ],
+  "datasets": [
+    "GenImage"
+  ],
+  "research_problem": "Overcoming the high computational cost and model-dependency of reconstruction-based diffusion image detectors by exploiting core distributional differences between real and synthetic images.",
+  "usefulness_reason": "Presents a highly efficient, lightweight baseline (FIND) that removes auxiliary reconstruction steps and runs significantly faster than existing methods.",
+  "saved_at": "2026-09-24T11:23:24"
+}

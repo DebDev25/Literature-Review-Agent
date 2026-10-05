@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2511.00429",
+  "title": "Enhancing Frequency Forgery Clues for Diffusion-Generated Image Detection",
+  "authors": [
+    "Daichi Zhang",
+    "Tong Zhang",
+    "Shiming Ge",
+    "Sabine Süsstrunk"
+  ],
+  "published": "2025-11-01",
+  "url": "http://arxiv.org/abs/2511.00429v1",
+  "research_problem": "Overcoming the poor generalization of existing detectors across different models and settings, and their vulnerability to various perturbations.",
+  "key_findings": [
+    "Diffusion-generated images exhibit progressively larger differences from natural real images across low-to-high frequency bands.",
+    "The proposed frequency-selective function and Frequency Forgery Clue (F^2C) representation successfully enhance discriminative bands while suppressing less informative ones, improving generalizability to unseen models and robustness to perturbations."
+  ],
+  "usefulness": "high",
+  "datasets": [],
+  "usefulness_reason": "Focuses on frequency forgery clues across frequency bands to improve cross-model generalization and perturbation robustness for diffusion detection.",
+  "saved_at": "2026-09-22T14:42:34"
+}

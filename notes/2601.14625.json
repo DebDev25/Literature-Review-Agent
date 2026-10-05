@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2601.14625",
+  "title": "Diffusion Epistemic Uncertainty with Asymmetric Learning for Diffusion-Generated Image Detection",
+  "authors": [
+    "Yingsong Huang",
+    "Hui Guo",
+    "Jing Huang",
+    "Bing Bai",
+    "Qi Xiong"
+  ],
+  "published": "2026-01-21",
+  "url": "http://arxiv.org/abs/2601.14625v1",
+  "research_problem": "Addressing how ignoring the differing impacts of aleatoric and epistemic uncertainty on reconstruction error can undermine diffusion-generated image detection performance.",
+  "usefulness_reason": "Directly tackles diffusion-based measurement limitations by decomposing uncertainty into aleatoric and epistemic components to improve detection generalizability.",
+  "usefulness": "high",
+  "key_findings": [
+    "Aleatoric uncertainty creates data noise ambiguity and does not help distinguish generated images, whereas epistemic uncertainty supports detection.",
+    "The proposed Diffusion Epistemic Uncertainty with Asymmetric Learning (DEUA) framework achieves state-of-the-art performance on large-scale benchmarks."
+  ],
+  "datasets": [],
+  "saved_at": "2026-09-22T14:42:34"
+}

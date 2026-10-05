@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2604.09106",
+  "title": "Detecting Diffusion-generated Images via Dynamic Assembly Forests",
+  "authors": [
+    "Mengxin Fu",
+    "Yuezun Li"
+  ],
+  "published": "2026-04-10",
+  "url": "http://arxiv.org/abs/2604.09106v2",
+  "key_findings": [
+    "The proposed Dynamic Assembly Forest (DAF) model achieves competitive performance under standard evaluation protocols with significantly fewer parameters and lower computational cost compared to deep neural networks.",
+    "DAF can be deployed without GPUs, making it a practical substitute for heavyweight DNN models in resource-constrained scenarios."
+  ],
+  "datasets": [],
+  "research_problem": "Investigating traditional machine learning models (specifically the deep forest paradigm) as an alternative to heavyweight deep neural networks (CNNs and Transformers) for detecting diffusion-generated images.",
+  "usefulness_reason": "Directly addresses lightweight detectors for diffusion-generated images by introducing a parameter-efficient, low-computation, non-DNN model (DAF) that can run without a GPU.",
+  "usefulness_score": "high",
+  "saved_at": "2026-09-24T11:23:24"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2507.02995",
+  "title": "FreqCross: A Multi-Modal Frequency-Spatial Fusion Network for Robust Detection of Stable Diffusion 3.5 Generated Images",
+  "authors": [
+    "Guang Yang"
+  ],
+  "published": "2025-07-01",
+  "url": "http://arxiv.org/abs/2507.02995v2",
+  "usefulness_reason": "Presents a multi-modal network featuring a lightweight CNN for processing spectral features and spatial components, contributing to efficient/lightweight detector designs.",
+  "research_problem": "Robust detection of Stable Diffusion 3.5 generated images by combining spatial RGB features, frequency domain artifacts, and radial energy distribution patterns.",
+  "datasets": [
+    "MS-COCO",
+    "Stable Diffusion 3.5"
+  ],
+  "usefulness_score": "medium",
+  "key_findings": [
+    "FreqCross achieves 97.8% accuracy on a dataset of 10,000 paired real and synthetic images, outperforming state-of-the-art baselines by 5.2%.",
+    "Synthetic images exhibit distinct spectral signatures in the 0.1-0.4 normalized frequency range."
+  ],
+  "saved_at": "2026-09-24T11:23:24"
+}
